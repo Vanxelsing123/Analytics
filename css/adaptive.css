@@ -1,0 +1,271 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .main__banner {
+    padding: 170px 0 220px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .main__banner .mb__info > h1 {
+    font-size: 45px;
+  }
+  .main__banner .mb__info > .descr {
+    margin-bottom: 20px;
+  }
+  .main__banner {
+    padding: 100px 0 160px;
+  }
+  section {
+    padding: 80px 0;
+  }
+  #advantages .row__adv .item__adv > .heading {
+    margin: 16px 0;
+  }
+  #reviews {
+    padding: 170px 0;
+  }
+  #pre__footer .pf__info > .pf__images {
+    max-width: 350px;
+    margin-bottom: 40px;
+  }
+  #footer .row__flex .col__footer__1,
+  #footer .row__flex .col__footer__3 {
+    width: 48%;
+    order: 2;
+  }
+  #footer .row__flex .col__footer__2 {
+    width: 100%;
+    margin-bottom: 30px;
+    order: 1;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #header .inner__header .right__slide__header > .btn__simple {
+    display: none;
+  }
+  #header .inner__header .mnu__top > li a {
+    padding: 5px 30px 5px 0;
+  }
+  #header .inner__header .mnu__top > li.has__sab--menu::after {
+    right: 15px;
+  }
+  .main__banner {
+    padding: 50px 0 170px;
+  }
+  .main__banner .img__reponsive {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .main__banner .mb__info > h1 {
+    font-size: 40px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  #advantages .heading__main h2 {
+    font-size: 34px;
+  }
+  #advantages .heading__main .description {
+    font-size: 16px;
+  }
+  .row__adv > div {
+    width: 50%;
+  }
+  .item__adv {
+    text-align: center;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+  #advantages .row__adv .item__adv > .heading {
+    margin: 10px 0;
+  }
+  #advantages .row__adv .item__adv > .heading {
+    font-size: 22px;
+  }
+  #advantages .row__adv .item__adv > .descr {
+    font-size: 14px;
+  }
+  section.information .img-responsive {
+    display: none;
+  }
+  .right__info {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .right__info .notif {
+    margin: 0 auto;
+  }
+  section.information .right__info > h3 {
+    font-size: 33px;
+  }
+  #reviews .item__rev > .quotes {
+    font-size: 16px;
+    height: 80px;
+  }
+  #pre__footer .pf__info > h4 {
+    font-size: 33px;
+  }
+  #footer {
+    padding: 30px 0;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .hamburger {
+    display: block;
+  }
+  #header {
+    position: relative;
+    padding-top: 14px;
+  }
+  .inner__header .right__slide__header .mnu__top {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    padding: 10px 0;
+    z-index: 11;
+  }
+  #header .inner__header .mnu__top > li {
+    display: block;
+  }
+  #header .inner__header .mnu__top > li > a {
+    padding: 5px 15px;
+  }
+  #header .inner__header .mnu__top > li > .sub__menu {
+    display: block;
+    position: relative;
+    top: auto;
+    box-shadow: none;
+    border-radius: none;
+    animation: none;
+    padding-left: 15px;
+  }
+  #header .inner__header .mnu__top > li.has__sab--menu::after {
+    display: none;
+  }
+  #top__banner {
+    background-color: #f5faff;
+    background-image: none !important;
+  }
+  #top__banner .main__banner {
+    padding: 20px 0 50px;
+  }
+  .notif {
+    margin: 0 auto;
+  }
+  .main__banner .mb__info {
+    text-align: center;
+  }
+  .main__banner .mb__info > h1 {
+    font-size: 30px;
+  }
+  .main__banner .mb__info > .descr {
+    font-size: 14px;
+  }
+  .main__banner .mb__info > .btns {
+    flex-wrap: wrap;
+  }
+  .main__banner .mb__info > .btns > a {
+    display: block;
+    width: 100%;
+  }
+  .main__banner .mb__info > .btns > .btn__white {
+    margin: 0;
+    margin-top: 10px;
+  }
+  #advantages .notif {
+    font-size: 14px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  #advantages .heading__main {
+    margin: 25px 0;
+  }
+  #advantages .heading__main h2 {
+    font-size: 25px;
+  }
+  #advantages .heading__main .description {
+    font-size: 13px;
+  }
+  .row__adv > div {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .row__adv > div:last-child {
+    margin-bottom: 0;
+  }
+  section.information .right__info > h3 {
+    font-size: 25px;
+  }
+  #reviews {
+    padding: 120px 0;
+  }
+  #reviews .item__rev > .quotes {
+    font-size: 13px;
+    height: 95px;
+  }
+  #reviews .line {
+    margin: 30px 0;
+  }
+  #reviews .nav__rev {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  #reviews .nav__rev > div {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  #reviews .nav__rev > div:last-child {
+    margin-bottom: 0;
+  }
+  #reviews .nav__rev > div:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  #pre__footer .pf__info > h4 {
+    font-size: 25px;
+  }
+  #pre__footer .form__wrapper > form {
+    padding: 36px 10px 24px;
+  }
+  #pre__footer .form__wrapper > form > input {
+    padding: 10px 13px;
+  }
+  .mnu__footer--wrapper > .mnu__footer > ul > li {
+    margin-bottom: 10px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/
+}
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}/*# sourceMappingURL=adaptive.css.map */
